@@ -1,7 +1,11 @@
 GolfScore automated testing
 ===========================
+To add a test, add a line to test.py:
 
-run 
-   python test.py
+```python
+test(2, './golfscore -h')
+```
+* First argument: the test id
+* Second argument: the test command
 
-to run the automated test suite.
+Run ```python test.py``` to run the automated test suite.
